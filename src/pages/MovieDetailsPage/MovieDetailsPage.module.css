@@ -1,0 +1,92 @@
+.container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.backLink {
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.backLink:hover {
+  color: #0056b3;
+}
+
+.detailsWrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.imageWrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.infoWrapper {
+  flex-grow: 1;
+  max-width: 70%;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.overview {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.stats {
+  font-size: 18px;
+  color: #444;
+}
+
+.stats strong {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.imageWrapper .link {
+  margin-top: 15px;
+  text-align: left;
+  width: 100%;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.navLink:hover {
+  color: #0056b3;
+}
+
+.genresList {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.genresItem {
+  font-weight: 500;
+  font-size: 18px;
+}
